@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AmondiMedia\\VatValidator\\": "src/"
+            "AmondiMedia\\LaravelEvatr\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AmondiMedia\\VatValidator\\Providers\\VatValidatorServiceProvider"
+                "AmondiMedia\\LaravelEvatr\\Providers\\LaravelEvatrServiceProvider"
             ]
         }
     },

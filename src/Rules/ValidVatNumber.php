@@ -1,8 +1,8 @@
 <?php
 
-namespace AmondiMedia\VatValidator\Rules;
+namespace AmondiMedia\LaravelEvatr\Rules;
 
-use AmondiMedia\VatValidator\Http\Client as VatClient;
+use AmondiMedia\LaravelEvatr\Http\Client as VatClient;
 use Illuminate\Contracts\Validation\Rule;
 
 class ValidVatNumber implements Rule

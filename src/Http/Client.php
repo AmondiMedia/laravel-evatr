@@ -1,6 +1,6 @@
 <?php
 
-namespace AmondiMedia\VatValidator\Http;
+namespace AmondiMedia\LaravelEvatr\Http;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\RequestException;

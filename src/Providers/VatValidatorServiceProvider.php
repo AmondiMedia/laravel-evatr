@@ -1,13 +1,13 @@
 <?php
 
-namespace AmondiMedia\VatValidator\Providers;
+namespace AmondiMedia\LaravelEvatr\Providers;
 
-use AmondiMedia\VatValidator\Http\Client as VatClient;
-use AmondiMedia\VatValidator\Rules\ValidVatNumber;
+use AmondiMedia\LaravelEvatr\Http\Client as VatClient;
+use AmondiMedia\LaravelEvatr\Rules\ValidVatNumber;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 
-class VatValidatorServiceProvider extends ServiceProvider
+class LaravelEvatrServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
