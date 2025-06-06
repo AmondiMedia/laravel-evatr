@@ -77,9 +77,4 @@ The package also includes these default configurations:
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Author
-
-- [Amondi Media](https://amondi.media)
-- Email: antonio@amondi.media
+GNU General Public License. Please see [License File](LICENSE.md) for more information.
