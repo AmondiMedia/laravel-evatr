@@ -24,4 +24,14 @@ return [
     |
     */
     'timeout' => 10,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Ignore DE VAT numbers
+    |--------------------------------------------------------------------------
+    |
+    | If true, the validator will not validate DE VAT numbers.
+    |
+    */
+    'ignore_de_vat_numbers' => env('EVATR_IGNORE_DE_VAT_NUMBERS', false),
 ];
