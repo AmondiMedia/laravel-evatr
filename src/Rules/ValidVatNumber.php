@@ -55,6 +55,11 @@ class ValidVatNumber implements Rule
             return false;
         }
 
+        // If the DE VAT number is ignored, return true
+        if (config('vat_validator.ignore_de_vat_numbers') && str_starts_with($value, 'DE')) {
+            return true;
+        }
+
         $result = $this->client->validate(
             $value, // This is UstId_2
             $this->companyName,
