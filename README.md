@@ -5,7 +5,7 @@ Laravel package for validating German and EU VAT identification numbers using th
 ## Requirements
 
 - PHP 8.1 or higher
-- Laravel 10.x or 11.x
+- Laravel 10.x, 11.x or 12.x
 - Guzzle HTTP Client
 
 ## Installation
